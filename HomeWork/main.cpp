@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 //#define TASK_1
@@ -20,7 +20,7 @@ void main()
 #ifdef TASK_2
 	double price_notebook, price_pencil;
 	int number_notebooks, number_pencils, total_price;
-	cout << "Âû÷åñëåíèå ñòîèìîñòè ïîêóïêè. " << "Ââåäèòå èñõîäíûå äàííûå: " << endl;
+	cout << "Ð’Ñ‹Ñ‡ÐµÑÐ»ÐµÐ½Ð¸Ðµ ÑÑ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚Ð¸ Ð¿Ð¾ÐºÑƒÐ¿ÐºÐ¸. " << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¸ÑÑ…Ð¾Ð´Ð½Ñ‹Ðµ Ð´Ð°Ð½Ð½Ñ‹Ðµ: " << endl;
 	cout << "Price of the notebook: "; cin >> price_notebook;
 	cout << "Number of notebooks: ";   cin >> number_notebooks;
 	cout << "The price of a pencil: "; cin >> price_pencil;
@@ -33,7 +33,7 @@ void main()
 #endif // TASK_2
 
 	double distance, expendinture, price_petrol, total_price;
-	cout << "Ñalculating the cost of a trip to the country and back" << endl;
+	cout << "Ð¡alculating the cost of a trip to the country and back" << endl;
 	cout << "Distance: "; cin >> distance;
 	cout << "Expendinture petrol: "; cin >> expendinture;
 	cout << "The price of petrol: "; cin >> price_petrol;
