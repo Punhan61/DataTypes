@@ -3,7 +3,7 @@ using namespace std;
 
 //#define TASK_1
 //#define TASK_2
-#define TASK_3
+//#define TASK_3
 
 void main()
 {
@@ -32,6 +32,7 @@ void main()
 	cout << "Total price: " << total_price;
 #endif // TASK_2
 
+#ifdef TASK_3
 	double distance, expendinture, price_petrol, total_price;
 	cout << "Сalculating the cost of a trip to the country and back" << endl;
 	cout << "Distance: "; cin >> distance;
@@ -39,4 +40,13 @@ void main()
 	cout << "The price of petrol: "; cin >> price_petrol;
 	total_price = distance * 2 * expendinture / 100 * price_petrol;
 	cout << "Total price per trip: " << total_price;
+#endif // TASK_3
+
+	int a = 2, b = 3;
+	cout << a << "\t" << b << endl;
+	int bufer = a;
+	a = b;
+	b = bufer;
+	cout << a << "\t" << b << endl;
+
 }
