@@ -48,5 +48,5 @@ void main()
 	a = b;
 	b = bufer;
 	cout << a << "\t" << b << endl;
-
+	hggg
 }
